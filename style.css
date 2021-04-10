@@ -1,0 +1,103 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: #6F1A07;
+  font-family: "RocknRoll One", sans-serif;
+  color: black;
+}
+
+header {
+  background-color: #2B2118;
+  height: 100px;
+  color: #AF9164;
+}
+a {
+  text-decoration: none;
+}
+
+li {
+  margin: 0;
+  list-style: none;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  margin: 0;
+  float: left;
+  padding: 33px 0 0 50px;
+}
+
+nav a {
+  display: block;
+  float: right;
+  margin: 40px 50px 0 0;
+  color: #AF9164;
+}
+
+.main {
+  height: 600px;
+}
+
+.titlemain {
+  text-align: center;
+  padding: 255px 0 0 0;
+  margin: 0;
+  font-size: 50px;
+  animation: slideLeft 1.5s;   
+}
+
+@keyframes slideLeft {
+  from {
+    transform: translateX(-1200px);
+    opacity: 0.1;
+  }
+
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.prmain {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  animation: slideLeft 1.5s;
+}
+
+.thememain{
+    text-align: center;
+    padding: 100px 0 0 0;
+    margin: 0;
+    font-size: 50px;
+    animation: slideLeft 1.5s; 
+}
+
+.prtheme{
+  text-align: center;
+  text-align: justify;
+  margin: 0;
+  padding: 50px 200px 0 200px;
+  animation: slideLeft 1.5s;
+}
+
+footer {
+  height: 79px;
+  background-color: #2B2118;
+  color: #AF9164;
+}
+
+.prfooter {
+  padding: 30px 0 0 20px;
+}
+
+nav a:hover{
+    transform: scale(1.1);
+}
